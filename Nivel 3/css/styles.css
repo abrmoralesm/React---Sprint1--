@@ -538,10 +538,15 @@ footer {
     font-size: 1.3rem;
   }
 
-  sectionFooter {
+  .sectionFooter {
     grid-area: 5/1/6/1;
+    
   }
+ 
 
+  .aside1 {
+    font-size: 1.4rem;
+  }
   .footerDown {
     font-size: 1.3rem;
   }
