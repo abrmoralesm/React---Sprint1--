@@ -227,7 +227,7 @@ section {
   font-size: 1.6rem;
 }
 
-.peuPagina {
+.footerDown {
   background-color: rgba(243, 243, 243, 0.856);
   color: dimgray;
   text-align: center;
@@ -296,7 +296,7 @@ section {
     font-size: 2.5rem;
   }
 
-  .main {
+  main {
     font-size: 1.25rem;
     flex-flow: column nowrap;
   }
@@ -381,7 +381,7 @@ section {
     font-size: 1.75rem;
   }
 
-  .main {
+  main {
     font-size: 1.3rem;
   }
 
@@ -414,7 +414,7 @@ section {
     flex: 1;
   }
 
-  .peuPagina {
+  .footerDown {
     font-size: 1.3rem;
   }
 }
