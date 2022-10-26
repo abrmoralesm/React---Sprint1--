@@ -117,7 +117,7 @@ nav {
   animation: up 2s ease-in;
 }
 
-.titol h1 {
+.title h1 {
   color: #ff7d4a;
   opacity: 0.7;
   text-align: center;
@@ -126,7 +126,7 @@ nav {
   font-size: 3rem;
 }
 
-.main {
+main {
   font-size: 1.6rem;
   grid-area: main;
   display: grid;
@@ -170,6 +170,7 @@ article img {
   object-fit: cover;
   width: 100%;
   height: 19rem;
+  animation: up 2s ease-in;
 }
 
 article h3 {
@@ -180,7 +181,7 @@ article h3 {
   font-weight: lighter;
 }
 
-article .titol {
+article .title {
   background-color: rgb(220, 120, 130);
   height: 3.6rem;
   margin-top: .75rem;
@@ -207,6 +208,10 @@ article a {
   opacity: 0.7;
   text-decoration: none;
   color: dimgray;
+}
+
+.link-article a:hover {
+  color: salmon;
 }
 
 .sectionFooter {
@@ -405,12 +410,12 @@ footer {
     padding: 2.5rem 0 0;
   }
 
-  .titol h1 {
+  .title h1 {
     padding-top: .5rem;
     font-size: 2.5rem;
   }
 
-  .main {
+  main {
     font-size: 1.25rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
@@ -430,7 +435,7 @@ footer {
     font-size: 1.2rem
   }
 
-  article .titol {
+  article .title {
     height: 2.8rem;
     font-size: 1.5rem;
   }
@@ -496,12 +501,12 @@ footer {
     padding: 0;
   }
 
-  .titol h1 {
+  .title h1 {
     padding-top: 1.8rem;
     font-size: 1.75rem;
   }
 
-  .main {
+  main {
     font-size: 1.3rem;
   }
 
@@ -531,7 +536,7 @@ footer {
     font-size: 1rem
   }
 
-  article .titol {
+  article .title {
     height: 2.5rem;
     padding-top: .7rem;
     font-size: 1.5rem;
