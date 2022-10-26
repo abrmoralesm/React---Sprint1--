@@ -14,7 +14,7 @@ html {
   max-width: 1200px;
   margin: 1rem auto;
   display: grid;
-  grid: "header"auto "main"auto "footer"auto / 1fr;
+  grid: "header" auto "main" auto "footer" auto / 1fr;
   gap: 1rem;
 }
 
